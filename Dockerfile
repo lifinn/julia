@@ -1,0 +1,2 @@
+FROM plutojl/pluto:latest
+RUN julia -e 'using Pkg; Pkg.add(["PlutoUI", "Images", "ImageIO", "ImageMagick", "ImageFiltering", "Colors", "Statistics", "Plots", "GraphPlot", "LightGraphs", "Suppressor", "InteractiveUtils", "Combinatorics",])'
